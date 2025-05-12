@@ -1,6 +1,6 @@
 # RustyShield: Password Strength Tester
 A simple CLI tool written in Rust to evaluate password strength based on length, lowercase, uppercase, digit---
-## ■ Table of Contents
+## Table of Contents
 - [About](#about)
 - [Features](#features)
 - [Requirements](#requirements)
