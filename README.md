@@ -12,7 +12,7 @@
 # RustyShield: Password Strength Tester
 A simple CLI tool written in Rust to evaluate password strength based on length,
 lowercase, uppercase, digits, and special symbols.
-![GitHub](https://img.shields.io/github/license/code-by-sahib/RustyShield-Password-Strength-Tester)
+![GitHub](https://img.shields.io/github/license/code-by-sahib/Uber-System-Simulation)
 
 ## Features
 - Checks password length (≥ 8 characters)
