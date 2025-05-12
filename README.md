@@ -1,18 +1,18 @@
-# RustyShield: Password Strength Tester
-A simple CLI tool written in Rust to evaluate password strength based on length, lowercase, uppercase, digit---
-## Table of Contents
-- [About](#about)
+# Table of Contents
+- [RustyShield: Password Strength Tester](#rustyshield-password-strength-tester)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
+- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 ---
-## About
-RustyShield helps you quickly check how strong your password is, scoring up to 5 points and offering sugge---
+# RustyShield: Password Strength Tester
+A simple CLI tool written in Rust to evaluate password strength based on length,
+lowercase, uppercase, digits, and special symbols.
+![GitHub](https://img.shields.io/github/license/code-by-sahib/RustyShieldPassword-Strength-Tester)
 ## Features
 - Checks password length (≥ 8 characters)
 - Detects presence of lowercase letters
@@ -21,49 +21,62 @@ RustyShield helps you quickly check how strong your password is, scoring up to 5
 - Detects presence of special symbols
 - Classifies strength as Weak, Moderate, or Strong
 - Provides improvement suggestions for non-strong passwords
----
 ## Requirements
 - Rust (1.56+)
 - Cargo
 - `regex` crate (v1)
 - `colored` crate (v2)
----
 ## Installation
-```bash
-# Clone the repo
-git clone https://github.com/code-by-sahib/RustyShield-Password-Strength-Tester.git
-# Change directory
-cd RustyShield-Password-Strength-Tester
-# (Optional) Update dependencies
-cargo update
-```
----
+1. **Clone the repository**
+ ```bash
+ git clone https://github.com/code-by-sahib/RustyShield-Password-StrengthTester.git
+ ```
+2. **Enter the project directory**
+ ```bash
+ cd RustyShield-Password-Strength-Tester
+ ```
+3. **Build the project**
+ ```bash
+ cargo build --release
+ ```
 ## Usage
-Run the program via Cargo:
-```bash
-cargo run
-```
-Enter your password when prompted:
+1. **Run the application**
+ ```bash
+ cargo run
+ ```
+2. **Follow the prompt** to enter your password.
+Example:
 ```text
 RustyShield: Password Strength Tester
 Enter a password to check its strength:
 > P@ssw0rd123
 Password strength: Strong (Score: 5/5)
 ```
----
-## Configuration
-No additional configuration is required. All dependencies are managed via `Cargo.toml`.
----
 ## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create your feature branch: `git checkout -b feature/my-feature`
-3. Commit your changes: `git commit -m "Add my feature"`
-4. Push to the branch: `git push origin feature/my-feature`
-5. Open a pull request.
----
+Contributions are welcome! Please:
+- Fork this repository
+- Open an issue to report bugs or suggest features
+- Submit a pull request with enhancements or fixes
 ## License
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
----
+MIT License
+Copyright (c) 2025 Sahib Ahluwalia
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## Acknowledgements
+- Built as a personal Rust learning project.
+- Inspired by common password-strength checkers and security best practices.
 ## Contact
-GitHub: [code-by-sahib](https://github.com/code-by-sahib)
+For questions or feedback, please reach out via e-mail:
+sahib.ahluwalia@torontomu.ca
